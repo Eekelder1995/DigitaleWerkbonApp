@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "855839408789",
+    "firebase_url": "https://planning-97f0b.firebaseio.com",
+    "project_id": "planning-97f0b",
+    "storage_bucket": "planning-97f0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855839408789:android:306c9ca70aee7802",
+        "android_client_info": {
+          "package_name": "eekelder.digitalewerkbon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855839408789-05rv09b1n0e3iqv1qsrcmfi24bmpmoeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eekelder.digitalewerkbon",
+            "certificate_hash": "ef24140416c763406811a3e215a20ec4bbbea2b8"
+          }
+        },
+        {
+          "client_id": "855839408789-7ca439okesk3te6auq8hjpp91atf44jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJbnS2B9rah20Tu4KxbOeWOZoDdRaOigE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855839408789-7ca439okesk3te6auq8hjpp91atf44jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

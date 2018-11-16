@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#13701e</color>
+    <color name="colorPrimaryDark">#949292</color>
+    <color name="colorAccent">#2d8942</color>
+    <color name="white">#ffffff</color>
+    <color name="text">#414141</color>
+    <color name="titletext">#201f1f</color>
+    <color name="titles">#54ae37</color>
+    <color name="button">#83bc66</color>
+    <color name="greentask">#91c279</color>
+    <color name="redtask">#ba5c4b</color>
+    <color name="orangetask">#df8947</color>
+    <color name="pausetask">#dcd56d</color>
+
+
+
+
+</resources>
