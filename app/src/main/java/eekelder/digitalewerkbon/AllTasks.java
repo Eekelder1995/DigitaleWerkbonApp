@@ -31,6 +31,7 @@ public class AllTasks extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
 
     private TextView selectedDate;
+    private int thisWeek;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,8 @@ public class AllTasks extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance();
         dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+        thisWeek = calendar.get(Calendar.DAY_OF_YEAR);
+
         allTasks = false;
 
         Database mydb = Database.getInstance(getApplicationContext());
@@ -61,7 +64,9 @@ public class AllTasks extends AppCompatActivity {
         dayBackward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dayNumber--;
+                if (dayNumber > thisWeek-7) {
+                    dayNumber--;
+                }
                 updateView();
             }
         });
@@ -69,7 +74,9 @@ public class AllTasks extends AppCompatActivity {
         dayForward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dayNumber++;
+                if (dayNumber < thisWeek+7) {
+                    dayNumber++;
+                }
                 updateView();
             }
         });
